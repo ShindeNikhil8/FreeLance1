@@ -1,0 +1,1 @@
+import{j as t}from"./index-Dr6SipUb.js";function s({children:r,className:o="",hover:e=!0}){return t.jsx("div",{className:`rounded-2xl border border-slate-200 bg-white p-6 shadow-sm ${e?"transition duration-300 hover:-translate-y-2 hover:border-orange-500 hover:shadow-xl":""} ${o}`,children:r})}export{s as C};
