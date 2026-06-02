@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
+// import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import Button from "../common/Button";
 import logo from "../../assets/images/image.png"; 
@@ -26,8 +27,8 @@ export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   // const [activeSection, setActiveSection] = useState("home");
 
-  const location = useLocation();
-  const navigate = useNavigate();
+  // const location = useLocation();
+  // const navigate = useNavigate();
 
   useEffect(() => {
     function handleScroll() {
