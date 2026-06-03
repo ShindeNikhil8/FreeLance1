@@ -2,6 +2,7 @@ import { Factory, Wrench, ScanSearch, Settings2 } from "lucide-react";
 import SectionTitle from "../common/SectionTitle";
 import cncmachinery from "../../data/machine/cncmachinery"; 
 import vmcmachinery from "../../data/machine/vmcmachinery";
+import otherFacilities from "../../data/machine/otherFacilities";
 import Card from "../common/Card";
 import image1 from "../../assets/images/facilities/image1.png";
 import image2 from "../../assets/images/facilities/image2.png";
@@ -118,7 +119,7 @@ export default function Infrastructure() {
                 </div>
 
                 {/* Right Image */}
-               <div className="w-56 flex-shrink-0 flex items-center justify-center">
+               <div className="w-full md:w-56 flex-shrink-0 flex items-center justify-center">
   <img
     src={machine.image}
     alt={machine.name}
@@ -197,6 +198,30 @@ export default function Infrastructure() {
   ))}
 </div>
         </div>
+
+        
+        {/* 5. Other Facilities */}
+<div className="mt-24">
+  <SectionTitle
+    eyebrow="Other Facilities"
+    title=""
+    description=""
+  />
+
+  <div className="flex justify-center mt-8">
+  <Card className="w-full md:w-[70%] p-6 border border-slate-200 rounded-2xl bg-white shadow-sm transition hover:shadow-xl hover:border-orange-400 hover:-translate-y-1">
+    <ul className="grid md:grid-cols-2 gap-y-3 gap-x-8 text-slate-700">
+  {otherFacilities.map((facility, index) => (
+    <li key={index} className="flex items-start gap-3">
+      <span className="text-orange-500 mt-1">•</span>
+      <span>{facility.title}</span>
+    </li>
+  ))}
+</ul>
+  </Card>
+</div>
+</div>
+
 
         {/* 5. Closing */}
         <div className="mt-20 text-center text-lg font-semibold text-slate-700">

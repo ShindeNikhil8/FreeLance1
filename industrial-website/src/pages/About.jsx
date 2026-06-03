@@ -224,7 +224,7 @@ export default function About() {
       
       {/* Founder */}
       <div className="group overflow-hidden rounded-3xl bg-white shadow-lg transition hover:-translate-y-2 hover:shadow-2xl">
-        <div className="aspect-[4/5] overflow-hidden">
+        <div className="aspect-[1/1] overflow-hidden">
           <img
             src={founderImage}
             alt="Founder and Managing Director"
@@ -234,7 +234,7 @@ export default function About() {
 
         <div className="p-6 text-center">
           <h3 className="text-2xl font-bold text-slate-900">
-            Founder Name
+            Mr. Anil Dnyandev Salunke
           </h3>
 
           <p className="mt-2 text-orange-500 font-medium">
@@ -255,7 +255,7 @@ export default function About() {
 
         <div className="p-6 text-center">
           <h3 className="text-2xl font-bold text-slate-900">
-            Director Name
+            Mr. Rohan Anil Salunke
           </h3>
 
           <p className="mt-2 text-orange-500 font-medium">

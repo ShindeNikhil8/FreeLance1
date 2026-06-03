@@ -28,7 +28,7 @@ const vmcmachinery = [
     },
     {
         id: 3,
-        name:"Hitachi Seiki VA-40 VMC Machine",
+        name:"XTRON 544 VMC Machine",
         image:vmc3,
         Travel:[
             "X: 500mm",
@@ -36,7 +36,7 @@ const vmcmachinery = [
             "Z: 400mm"
         ],
         SpindleSpeed: "8000 RPM",
-        Controller:"Fanuc 6M"
+        Controller:"Fanuc OiMF+"
     }
 ];
 
