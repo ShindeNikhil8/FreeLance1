@@ -2,7 +2,7 @@ import { Factory, Wrench, ScanSearch, Settings2 } from "lucide-react";
 import SectionTitle from "../common/SectionTitle";
 import cncmachinery from "../../data/machine/cncmachinery"; 
 import vmcmachinery from "../../data/machine/vmcmachinery";
-import otherFacilities from "../../data/machine/otherFacilities";
+import otherFacilities from "../../data/machine/otherfacilities";
 import Card from "../common/Card";
 import image1 from "../../assets/images/facilities/image1.png";
 import image2 from "../../assets/images/facilities/image2.png";
