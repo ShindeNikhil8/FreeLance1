@@ -1,6 +1,10 @@
-const express = require("express");
-const nodemailer = require("nodemailer");
-const path = require("path");
+import express from "express";
+import nodemailer from "nodemailer";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const router = express.Router();
 
@@ -282,4 +286,4 @@ Enquiry Summary
   }
 });
 
-module.exports = router;
+export default router;
