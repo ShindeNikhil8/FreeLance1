@@ -211,19 +211,19 @@ export default function About() {
           </div>
         </section>
 
-        <section className="bg-white px-6 py-20 lg:px-8">
+        {/* <section className="bg-white px-6 py-20 lg:px-8">
   <div className="mx-auto max-w-7xl">
     
     <SectionTitle
   eyebrow="Leadership"
   title="Our Leadership"
   description="The individuals guiding A One Industries with a commitment to quality, innovation, and customer satisfaction."
-/>
+/> */}
 
-    <div className="mt-12 grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
-      
+    {/* <div className="mt-12 grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
+       */}
       {/* Founder */}
-      <div className="group overflow-hidden rounded-3xl bg-white shadow-lg transition hover:-translate-y-2 hover:shadow-2xl">
+      {/* <div className="group overflow-hidden rounded-3xl bg-white shadow-lg transition hover:-translate-y-2 hover:shadow-2xl">
         <div className="aspect-[1/1] overflow-hidden">
           <img
             src={founderImage}
@@ -241,10 +241,10 @@ export default function About() {
             Founder & Managing Director
           </p>
         </div>
-      </div>
+      </div> */}
 
       {/* Director */}
-      <div className="group overflow-hidden rounded-3xl bg-white shadow-lg transition hover:-translate-y-2 hover:shadow-2xl">
+      {/* <div className="group overflow-hidden rounded-3xl bg-white shadow-lg transition hover:-translate-y-2 hover:shadow-2xl">
         <div className="aspect-[4/5] overflow-hidden">
           <img
             src={directorImage}
@@ -262,11 +262,11 @@ export default function About() {
             Director
           </p>
         </div>
-      </div>
+      </div> */}
 
-    </div>
+    {/* </div>
   </div>
-</section>
+</section> */}
 
         <section className="bg-slate-950 px-6 py-20 text-white lg:px-8">
           <div className="mx-auto max-w-7xl">

@@ -67,15 +67,15 @@ export default function Footer() {
           <ul className="space-y-4 text-sm text-slate-400">
             <li className="flex items-start gap-3">
               <MapPin size={18} className="mt-1 text-orange-500" />
-              <span>Pune, Maharashtra, India</span>
+              <span> MIDC, Ahilyanagar, Maharashtra, India</span>
             </li>
             <li className="flex items-center gap-3">
               <Phone size={18} className="text-orange-500" />
-              <span>+91 98765 43210</span>
+              <span>+91 84839 28292</span>
             </li>
             <li className="flex items-center gap-3">
               <Mail size={18} className="text-orange-500" />
-              <span>info@eliteindustrial.com</span>
+              <span>aonenagar11@gmail.com</span>
             </li>
           </ul>
         </div>
